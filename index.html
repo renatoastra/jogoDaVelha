@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da velha</title>
+</head>
+<body>
+
+  <div class="stage">
+
+    <h1>Jogo da Velha</h1>
+    <h2>Escolha seu jogador</h2>
+    <div class="putinhos">
+      <div id="alien" onclick="alien()">👽</div>
+      <div id="elfo" onclick="elfo()">🧝‍♂️</div>
+    </div>
+    <div>
+      
+      <div id="0" class="square">
+      </div>
+      <div id="1" class="square">
+      </div>
+      <div id="2" class="square"></div>
+
+    </div>
+
+    <div>
+
+      <div id="3" class="square"></div>
+      <div id="4" class="square"></div>
+      <div id="5" class="square"></div>
+
+    </div>
+
+    <div>
+
+      <div id="6" class="square"></div>
+      <div id="7" class="square"></div>
+      <div id="8" class="square"></div>
+
+    </div>
+
+  </div>
+
+  <div>
+    <input id="reset" onclick="resetGame()" type="button" value="Reiniciar o jogo">
+  </div>
+  <a href="https://github.com/renatoastra" target="_blank"><h3>Follow me</h3></a>
+  <script src="game.js"></script>
+  <script src="interface.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+
+h1, h3, h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: beige;
+  border: 1px solid grey;
+  display: inline-block;
+}
+.o{
+  position: relative;
+}
+
+.o::after{
+  position: absolute;
+  content: "\1F9DD";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x{
+  position: relative;
+}
+
+.x::after{
+  position: absolute;
+  content: "\1F47D";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#reset{
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  box-shadow: 0.2px 0.2px 0.2px rgb(82, 82, 82);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(90, 90, 90);
+  
+}
+
+#reset:hover{
+  background-color: rgba(187, 187, 187, 0.637);
+  transition: 0.2s;
+}
+
+h3{
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.git{
+  display: inline-block;
+}
+
+.square:hover{
+  background-color: rgba(187, 187, 187, 0.637);
+  transition: 0.2s;
+}
+
+#alien, #elfo{
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.2s;
+  
+}
+
+#alien:hover, #elfo:hover{
+
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgb(66, 127, 240);
+  transition: 0.2s;
+}
+
+.putinhos{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+}
+
+.putinhos :first-child{
+
+  margin-right: 15px;
+}
+
+h1{
+  text-transform: uppercase;
+}
